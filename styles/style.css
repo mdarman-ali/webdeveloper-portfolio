@@ -46,13 +46,13 @@ nav a{
     padding: 15px 35px;
 }
 .banner{
-    padding: 30px 30px 0px 150px;
+    padding: 25px 25px 0px 150px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 .banner .profile-pic{
-    width: 584px;
+    width: 500px;
 }
 .banner-content{
     align-items: center;
@@ -90,6 +90,11 @@ nav a{
     font-weight: 700;
     letter-spacing: 33px;
 } */
+
+main{
+    max-width: 1140px;
+    margin:0 auto;
+}
 .about{
     padding: 130px;
     border-radius: 10px;
@@ -108,4 +113,26 @@ nav a{
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-inf{
+    margin-right: 50px;
+    text-align: center;
+    
+}
+.inf-title{
+    color: #757575;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 0;
+    line-height: 30px;
+}
+.info-description{
+    color: #474747;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 5px;
 }
